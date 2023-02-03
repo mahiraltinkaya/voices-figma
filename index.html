@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PCB 360 Title</title>
+    <link rel="stylesheet" href="/public/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="screen-mobile container only-mobile">
+        <div class="grid-2 d-flex justify-center align-center">
+          <img
+            src="/public/assets/images/icon.png"
+            alt="pcb 360 logo image"
+            width="41px"
+            height="41px"
+          />
+        </div>
+        <div class="grid-8 d-flex align-center">
+          <select>
+            <option value="">Select Country</option>
+          </select>
+        </div>
+        <div class="grid-2 d-flex justify-center align-center">
+          <img
+            src="/public/assets/images/p-img.png"
+            width="38px"
+            height="38px"
+            alt="User profile image"
+          />
+        </div>
+      </div>
+      <i class="d-sm-none d-md-none">
+        <img src="/public//assets/icons/compass.svg" alt="" />
+      </i>
+    </header>
+    <main class="container">
+      <section class="grid-6 pl-6 pr-3 grid-xl-12 pa-sm-1 pa-md-2">
+        <div class="section-title d-flex justify-center align-center">
+          Waiting List
+
+          <img
+            src="/public/assets/icons/quest.svg"
+            alt=""
+            width="32px"
+            class="px-1 d-lg-none"
+          />
+          <div class="flex d-lg-none"></div>
+          <img
+            src="/public/assets/icons/refresh.svg"
+            alt=""
+            width="32px"
+            class="pr-1 d-lg-none"
+          />
+        </div>
+
+        <div class="card">
+          <table class="card__table">
+            <thead>
+              <tr>
+                <th class="d-sm-none">Game Type</th>
+                <th class="d-sm-none">Game Rating</th>
+                <th colspan="2" class="text-left">Players</th>
+                <th>Waiting Time</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div
+            class="show-others d-flex justify-center align-center d-md-none d-lg-none"
+          >
+            Show other info
+          </div>
+          <div
+            class="show-button d-flex justify-center align-center d-md-none d-lg-none"
+          >
+            <button>
+              <img
+                src="/public/assets/icons/chevron-b.svg"
+                alt="List open icon"
+                width="16px"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="courts-wrapper d-md-none d-lg-none">
+          <div class="courts pa-2 p-sm-1"></div>
+        </div>
+
+        <div class="action py-3 d-md-none d-lg-none">
+          <div class="action-btn">
+            <button>Add me</button>
+          </div>
+        </div>
+      </section>
+      <section class="grid-6 pl-3 pr-6 grid-xl-12 pa-sm-1 pa-md-2">
+        <div class="section-title d-flex justify-center align-center">
+          Announcements
+        </div>
+        <div class="card">
+          <div class="card__content-title d-flex justify-center align-center">
+            Court opening hours will change!
+          </div>
+          <div
+            class="card__content-info px-1 mx-1 d-flex justify-space-between"
+          >
+            <span>11.Dec.22</span>
+            <span
+              >11:20
+              <span style="font-weight: 300; color: #393939; line-height: 22px"
+                >pm</span
+              ></span
+            >
+          </div>
+          <div class="card__content">
+            <article>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur hendrerit malesuada purus, in rhoncus risus bibendum
+                eu. Proin tincidunt ut quam in varius. Phasellus lorem ligula,
+                porta ac risus at, volutpat fringilla felis. Integer lectus
+                justo, porttitor eu nulla a, egestas blandit metus.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="courts-wrapper d-sm-none">
+          <h3>Courts</h3>
+          <i class="d-lg-none">
+            <img src="/public//assets/icons/compass.svg" alt="" />
+          </i>
+          <div class="courts pa-2 p-sm-1"></div>
+        </div>
+
+        <div class="action py-2 d-sm-none">
+          <div class="action-btn">
+            <button>Add to the waiting list</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/public/js/constants.js"></script>
+    <script src="/public/js/main.js"></script>
+  </body>
+</html>
